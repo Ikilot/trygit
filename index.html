@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example Title</title>
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Example description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="" />
+</head>
+
+<body>
+    <section class="main gradient">
+        <div class="container">
+            <div class="settings" id="settings">
+                <input type="range" name="points" min="0" max="100" value="50" id="circle_size">
+                <div class="show_circle" id="show_circle">
+                    <p id="circle_size_show">50</p>
+                </div>
+
+                <input type="radio" value="1" id="easy" name="dificult"> <label for="easy">Легко</label>
+                <input type="radio" value="2" id="normal" name="dificult"> <label for="normal">Нормально</label>
+                <input type="radio" value="3" id="hard" name="dificult"> <label for="hard">Сложно</label>
+
+                <button type="button" id="start">ИГРАТЬ!</button>
+
+            </div>
+            <div class="game" id="game">
+                <p id="timer">10</p>
+                <div class="circle" id="circle"></div>
+            </div>
+            <div class="finish" id="finish">
+                Ваш счет<h1 class="your_score" id="your_score"></h1>
+                <a href="index.html" id="reset">Играть ещё</button>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="game.js"></script>
+</body>
+
+</html>
