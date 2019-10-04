@@ -1,2 +1,2 @@
 # trygit
-https://github.com/Ikilot/trygit.git
+git clone https://github.com/Ikilot/trygit.git
